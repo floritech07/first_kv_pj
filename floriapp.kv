@@ -1,0 +1,33 @@
+<GameView>:
+    result_label: result_label
+    answer_input: answer_input
+    
+    BoxLayout:
+        orientation: "vertical"
+        Image:
+            source: "logo.png"
+            allow_stretch: True
+            keep_ratio: True
+            size_hint: None, None
+            width: self.parent.width
+            height: self.parent.width / self.image_ratio
+        BoxLayout:
+            orientation: "vertical"
+            padding: 100, 30, 100, 30
+            Label:
+                id: result_label
+                text: "Trouver le nombre"
+                font_size: 30
+            TextInput:
+                id: answer_input
+                padding: 20, 20, 20, 20
+                size_hint: 1, 0.5
+                font_size: 42
+                input_type: "number"
+                multiline: False
+            Button:
+                text: "Valider"
+                size_hint: 1, 0.5
+                bold: True
+                background_color: "#0065EF"
+                on_press: root.checknumber()

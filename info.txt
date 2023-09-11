@@ -1,0 +1,3 @@
+This KIVY project consists of finding a random number chosen by the code each time a new game is played...Each time a number is entered, the code displays a messgae, Smaller, Bigger, Congratulations! You've found the number.....If you don't find the right number on the first try, the smaller and larger messages will help you figure it out.You can open this project on vs code and modify it as your imagination dictates.I'd also love to hear your opinions and recommendations and if possible work with you on what your imagination might recommend to improve this project.
+
+
